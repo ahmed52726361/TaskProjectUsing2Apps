@@ -4,3 +4,9 @@ C:\Users\HP\source\repos\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.csp
 C:\Users\HP\source\repos\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.dll
 C:\Users\HP\source\repos\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.pdb
+C:\Users\HP\source\repos\TaskProjectInTwoApp\businessLayerOfTasks\bin\Debug\businessLayerOfTasks.dll
+C:\Users\HP\source\repos\TaskProjectInTwoApp\businessLayerOfTasks\bin\Debug\businessLayerOfTasks.pdb
+C:\Users\HP\source\repos\TaskProjectInTwoApp\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\TaskProjectInTwoApp\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\TaskProjectInTwoApp\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.dll
+C:\Users\HP\source\repos\TaskProjectInTwoApp\businessLayerOfTasks\obj\Debug\businessLayerOfTasks.pdb

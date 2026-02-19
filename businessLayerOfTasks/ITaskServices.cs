@@ -9,7 +9,7 @@ namespace businessLayerOfTasks
     public interface ITaskServices
     {
         // The Delegate/Event
-        event Action OnTaskAdded;
+        event Action OnDataChanged;
         void AddTask(clsTask task);
         List<clsTask> GetAllTasks();
 

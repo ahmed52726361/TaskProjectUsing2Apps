@@ -13,7 +13,7 @@ namespace businessLayerOfTasks
         private readonly string _filePath = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
         "tasks.xml");
-        public event Action OnTaskAdded;
+        public event Action OnDataChanged;
         public clsTaskServices()
         {
             // Automatically load existing tasks on startup
@@ -23,7 +23,7 @@ namespace businessLayerOfTasks
         {
             ListOfTasks.Add(task);
             clsXmlPersistence.SaveToFile(_filePath, ListOfTasks);
-            OnTaskAdded?.Invoke();
+            OnDataChanged?.Invoke();
         }
         public List<clsTask> GetAllTasks()
         {
@@ -40,6 +40,8 @@ namespace businessLayerOfTasks
 
             task.IsCompleted = true;
             clsXmlPersistence.SaveToFile(_filePath, ListOfTasks);
+            OnDataChanged?.Invoke();
+
         }
         public float GetTotalProgress()
         {
